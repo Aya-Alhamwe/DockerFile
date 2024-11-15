@@ -49,6 +49,6 @@ http://localhost:8000/predict
 ```
 ### Docker Image Information 🐳
 
-Image Name: ayaalhamwe/predict_model
-Tag: latest
-Docker Hub URL: Docker Hub Repository
+- **Image Name**: ayaalhamwe/predict_model
+- **Tag**: latest
+- **Docker Hub URL**: [Docker Hub Repository](https://hub.docker.com/r/ayaalhamwe/predict_model)
