@@ -1,5 +1,3 @@
-[Docker Hub page](https://hub.docker.com/r/ayaalhamwe/predict_model)
-
 # Predict Model - Sentiment Analysis for Movies (IBM) 🚀
 
 Welcome to the **Predict Model** project! This project provides a machine learning model for **sentiment analysis** on movie reviews, determining whether the sentiment is **positive** or **negative**. The model is packaged in a **Docker container** for easy deployment and predictions.
