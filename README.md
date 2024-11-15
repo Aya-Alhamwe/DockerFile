@@ -33,16 +33,22 @@ You can pull the latest Docker image of the project from Docker Hub:
 ```bash
 
 docker pull ayaalhamwe/predict_model:latest
+```
+### Run the Docker Container 🏃‍♂️
 
-#Run the Docker Container 🏃‍♂️
-After pulling the image, you can run the container with the following command
+###After pulling the image, you can run the container with the following command
+
+```bash
 docker run -d -p 8000:8000 ayaalhamwe/predict_model:latest
+```
+### Test the Sentiment Analysis API 🌐
+### Once the container is up and running, you can test the sentiment analysis API by sending a POST request to:
 
-Test the Sentiment Analysis API 🌐
-Once the container is up and running, you can test the sentiment analysis API by sending a POST request to:
+```bash
 http://localhost:8000/predict
+```
+### Docker Image Information 🐳
 
-Docker Image Information 🐳
 Image Name: ayaalhamwe/predict_model
 Tag: latest
 Docker Hub URL: Docker Hub Repository
